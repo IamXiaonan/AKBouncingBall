@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SpriteKit/SpriteKit.h>
+#import "AKBouncingBallDemo.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) SKView * skView;
+@property (nonatomic, strong) AKBouncingBallDemo *myScene;
 
 @end
 

@@ -14,6 +14,7 @@
 		8B36DDEF1B3862ED00DB8E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B36DDEE1B3862ED00DB8E73 /* Images.xcassets */; };
 		8B36DDF21B3862ED00DB8E73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B36DDF01B3862ED00DB8E73 /* LaunchScreen.xib */; };
 		8B36DDFE1B3862EE00DB8E73 /* AKBouncingBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36DDFD1B3862EE00DB8E73 /* AKBouncingBallTests.m */; };
+		8B36DE091B3863B500DB8E73 /* AKBouncingBallDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36DE081B3863B500DB8E73 /* AKBouncingBallDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8B36DDF71B3862ED00DB8E73 /* AKBouncingBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKBouncingBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B36DDFC1B3862EE00DB8E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B36DDFD1B3862EE00DB8E73 /* AKBouncingBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKBouncingBallTests.m; sourceTree = "<group>"; };
+		8B36DE071B3863B500DB8E73 /* AKBouncingBallDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKBouncingBallDemo.h; sourceTree = "<group>"; };
+		8B36DE081B3863B500DB8E73 /* AKBouncingBallDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKBouncingBallDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8B36DDE61B3862ED00DB8E73 /* AppDelegate.m */,
 				8B36DDE81B3862ED00DB8E73 /* ViewController.h */,
 				8B36DDE91B3862ED00DB8E73 /* ViewController.m */,
+				8B36DE071B3863B500DB8E73 /* AKBouncingBallDemo.h */,
+				8B36DE081B3863B500DB8E73 /* AKBouncingBallDemo.m */,
 				8B36DDEB1B3862ED00DB8E73 /* Main.storyboard */,
 				8B36DDEE1B3862ED00DB8E73 /* Images.xcassets */,
 				8B36DDF01B3862ED00DB8E73 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B36DE091B3863B500DB8E73 /* AKBouncingBallDemo.m in Sources */,
 				8B36DDEA1B3862ED00DB8E73 /* ViewController.m in Sources */,
 				8B36DDE71B3862ED00DB8E73 /* AppDelegate.m in Sources */,
 				8B36DDE41B3862ED00DB8E73 /* main.m in Sources */,
